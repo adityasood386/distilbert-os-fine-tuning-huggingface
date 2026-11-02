@@ -28,7 +28,7 @@ Perplexity measured on a held-out 10% of the text (lower is better):
 ```python
 from transformers import pipeline
 
-fill = pipeline("fill-mask", model="YOUR-HF-USERNAME/distilbert-os-fill-mask")
+fill = pipeline("fill-mask", model="aditya500/distilbert-os-fill-mask")
 print(fill("The [MASK] schedules processes on the cpu."))
 ```
 
